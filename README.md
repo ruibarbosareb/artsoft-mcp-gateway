@@ -6,15 +6,16 @@
 
 ## 🇵🇹 Português
 
-O **MCP Artsoft Gateway** é um servidor bridge oficial desenvolvido pela [Rebortec](https://rebortec.com) que permite ligar assistentes de Inteligência Artificial (Claude Desktop, Cursor, Antigravity, ChatGPT, agentes autónomos) diretamente ao **ARTSOFT ERP** através do protocolo standard **MCP (Model Context Protocol)**.
+O **MCP Artsoft Gateway** é uma solução de conectividade de nível empresarial desenvolvida pela [Rebortec](https://rebortec.com) que permite ligar assistentes de Inteligência Artificial e modelos de linguagem diretamente ao ecossistema **ARTSOFT ERP** através do standard aberto **Model Context Protocol (MCP)**.
 
-### ✨ Principais Funcionalidades
-- **Gestão Comercial & Faturação:** Consulta em tempo real de clientes, propostas, encomendas, guias e faturas.
-- **Stocks & Armazém:** Saldos físicos, artigos sem rotação, necessidades de reposição e artigos críticos.
-- **Contabilidade & Tesouraria:** Extratos de contas correntes, reconciliação de pendentes e previsão de tesouraria.
-- **Operação 100% Offline:** Validação criptográfica assíncrona (Ed25519) com Hardware Binding (App ID) — requer ligação à internet apenas na ativação inicial.
-- **Multi-Empresa & Multi-Utilizador:** Gestão centralizada de bases de dados ARTSOFT com prompts de contexto específicos por empresa e por colaborador.
-- **Consola Web Local:** Interface administrativa em `http://127.0.0.1:8766` com gerador automático de configurações prontas a copiar.
+### ✨ Destaques de Engenharia e Capacidades
+- **Arquitetura de Elevada Resiliência:** Mecanismos de tolerância a falhas e proteção ativa de ligações para continuidade operacional.
+- **Otimização Inteligente de Comunicação:** Processamento de tráfego com elevada densidade informativa e consumo reduzido de contexto nos modelos de IA.
+- **Consolidação Temporal Avançada:** Reconciliação unificada e coerência documental contínua ao longo de múltiplos períodos fiscais.
+- **Recuperação Guiada e Validação Segura:** Descoberta assistida de alternativas e fluxos protegidos de validação prévia em operações críticas.
+- **Interatividade Proativa:** Capacidade de sugestão inteligente de próximos passos operacionais e criação de atalhos e agendamentos práticos.
+- **Segurança e Operação Offline:** Validação criptográfica com governação por perfis, salvaguarda de credenciais e operação local protegida.
+- **Consola de Gestão Dedicada:** Interface administrativa em `http://127.0.0.1:8766` com gerador automático de configurações prontas a utilizar.
 
 ---
 
@@ -51,15 +52,16 @@ O **MCP Artsoft Gateway** é um servidor bridge oficial desenvolvido pela [Rebor
 
 ## 🇬🇧 English
 
-**MCP Artsoft Gateway** is an enterprise-grade bridge server developed by [Rebortec](https://rebortec.com) that connects AI agents and LLMs (Claude Desktop, Cursor, Antigravity, autonomous agents) directly to **ARTSOFT ERP** using the open **Model Context Protocol (MCP)** standard.
+**MCP Artsoft Gateway** is an enterprise-grade connectivity solution developed by [Rebortec](https://rebortec.com) that connects AI assistants and LLMs directly to the **ARTSOFT ERP** ecosystem using the open **Model Context Protocol (MCP)** standard.
 
-### ✨ Key Features
-- **Sales & Invoicing:** Real-time query of customers, proposals, sales orders, delivery notes, and invoices.
-- **Stock & Warehouse:** Physical stock balance, dead stock analysis, replenishment needs, and critical items.
-- **Accounting & Treasury:** Current account statements, open balance reconciliation, and cashflow forecast.
-- **100% Offline Capability:** Ed25519 cryptographic lease verification with Hardware Binding (App ID) — requires internet connection only for the initial activation.
-- **Multi-Company & Multi-User:** Centralized management of multiple ARTSOFT companies with tailored AI prompt engineering per company and user.
-- **Local Web Backoffice:** Clean management UI running on `http://127.0.0.1:8766` with built-in client configuration generator.
+### ✨ Engineering Highlights & Key Capabilities
+- **High-Resilience Architecture:** Fault-tolerant mechanisms and proactive connection safeguards for continuous operation.
+- **Intelligent Communication Optimization:** High-density payload processing with significantly reduced token overhead for AI models.
+- **Advanced Temporal Consolidation:** Unified reconciliation and document flow coherence across multiple fiscal periods.
+- **Guided Recovery & Safe Validation:** Assisted discovery of valid operational alternatives and protected pre-commit flows for critical actions.
+- **Proactive Interactivity:** Smart next-step operational guidance with support for shortcuts and automated routines.
+- **Security & Offline Operation:** Cryptographic verification, granular scope-based governance, and protected local operation.
+- **Dedicated Management Console:** Clean management interface at `http://127.0.0.1:8766` with built-in client configuration generator.
 
 ---
 
